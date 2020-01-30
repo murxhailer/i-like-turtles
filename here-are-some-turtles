@@ -35,4 +35,12 @@ green.pensize(2)
 green.penup()
 green.right(90)
 green.forward(100)
+green.left(90)
 green.pendown()
+green.begin_fill()
+green.fillcolor("green")
+for z in range(360):
+    green.left(1)
+    green.forward(2)
+green.end_fill()
+
