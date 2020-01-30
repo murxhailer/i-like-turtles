@@ -1,0 +1,89 @@
+import turtle
+import sys
+sys.setExecutionLimit(80000)
+wn=turtle.Screen()
+wn.bgcolor("red")
+
+eric = turtle.Turtle()               #Eric is going to draw an orange circle
+eric.penup()                        
+eric.pensize(2)
+eric.right(90)
+eric.forward(150)
+eric.left(90)
+eric.pendown()
+eric.begin_fill()
+eric.fillcolor("orange")
+for x in range(360):
+    eric.left(1)
+    eric.forward(3)
+eric.end_fill()
+
+tom = turtle.Turtle()          #tom will draw a smaller circle
+tom.pensize(2)
+tom.penup()
+tom.right(90)
+tom.forward(125)
+tom.left(90)
+tom.pendown()
+tom.begin_fill()
+tom.fillcolor("yellow")
+for y in range(360):
+    tom.left(1)
+    tom.forward(2.5)
+tom.end_fill()
+
+green=turtle.Turtle()          #now I'm out of names for the turtles so they're named for their colors
+green.pensize(2)
+green.penup()
+green.right(90)
+green.forward(100)
+green.left(90)
+green.pendown()
+green.begin_fill()
+green.fillcolor("green")
+for z in range(360):
+    green.left(1)
+    green.forward(2)
+green.end_fill()
+
+blue = turtle.Turtle()          #here comes the blue circle wheee
+blue.pensize(2)
+blue.penup()
+blue.right(90)
+blue.forward(75)
+blue.left(90)
+blue.pendown()
+blue.begin_fill()
+blue.fillcolor("blue")
+for a in range(360):
+    blue.left(1)
+    blue.forward(1.5)
+blue.end_fill()
+
+lblue = turtle.Turtle()         #the turtles are gay now, and that's okay
+lblue.pensize(2)
+lblue.penup()
+lblue.right(90)
+lblue.forward(50)
+lblue.left(90)
+lblue.pendown()
+lblue.begin_fill()
+lblue.fillcolor("aqua")
+for b in range(360):
+    lblue.left(1)
+    lblue.forward(1)
+lblue.end_fill()
+
+purple = turtle.Turtle()              #Purple. Hooray for gay turtles!
+purple.pensize(2)
+purple.penup()
+purple.right(90)
+purple.forward(25)
+purple.left(90)
+purple.pendown()
+purple.begin_fill()
+purple.fillcolor("purple")
+for j in range(360):
+    purple.left(1)
+    purple.forward(0.5)
+purple.end_fill()
