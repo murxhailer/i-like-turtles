@@ -1,0 +1,38 @@
+import turtle
+eric = turtle.Turtle()
+eric.pensize(2)
+wn=turtle.Screen()
+wn.bgcolor("red")
+
+eric.penup()                        #eric is drawing an orange circle
+eric.right(90)
+eric.forward(150)
+eric.left(90)
+eric.pendown()
+eric.begin_fill()
+eric.fillcolor("orange")
+for x in range(360):
+    eric.left(1)
+    eric.forward(3)
+eric.end_fill()
+
+tom = turtle.Turtle()          #tom will draw a smaller circle
+tom.pensize(2)
+tom.penup()
+tom.right(90)
+tom.forward(125)
+tom.left(90)
+tom.pendown()
+tom.begin_fill()
+tom.fillcolor("yellow")
+for y in range(360):
+    tom.left(1)
+    tom.forward(2.5)
+tom.end_fill()
+
+green=turtle.Turtle()          #now I'm out of names for the turtles so they're named for their colors
+green.pensize(2)
+green.penup()
+green.right(90)
+green.forward(100)
+green.pendown()
